@@ -1,0 +1,87 @@
+/* Design Tokens - Auto-generated */
+/* Do not edit directly - modify tokens.json instead */
+
+/* === PRIMITIVES === */
+:root {
+  --primitive-color-paper-50: #FDF9F1;
+  --primitive-color-paper-100: #F6EEDD;
+  --primitive-color-paper-200: #EDE0C6;
+  --primitive-color-paper-300: #E1CFAE;
+  --primitive-color-terracotta-300: #E3A184;
+  --primitive-color-terracotta-500: #C4694B;
+  --primitive-color-terracotta-600: #A8502F;
+  --primitive-color-terracotta-700: #833C22;
+  --primitive-color-sage-300: #C4D0B4;
+  --primitive-color-sage-500: #8A9A78;
+  --primitive-color-sage-600: #6C7C5C;
+  --primitive-color-sage-700: #535F45;
+  --primitive-color-brown-400: #8A7256;
+  --primitive-color-brown-600: #5C4632;
+  --primitive-color-brown-800: #3A2C20;
+  --primitive-color-brown-900: #241A12;
+  --primitive-color-gold-400: #D9A441;
+  --primitive-color-gold-600: #B37F26;
+  --primitive-font-hand: var(--font-caveat), 'Caveat', cursive;
+  --primitive-font-serif: var(--font-lora), 'Lora', Georgia, serif;
+  --primitive-font-sans: var(--font-karla), 'Karla', system-ui, sans-serif;
+  --primitive-motion-duration-micro: 200ms;
+  --primitive-motion-duration-base: 350ms;
+  --primitive-motion-duration-reveal: 900ms;
+  --primitive-motion-duration-sway: 6s;
+  --primitive-motion-ease-organic: cubic-bezier(0.22, 1, 0.36, 1);
+  --primitive-motion-ease-wobble: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --primitive-shape-blob-1: 62% 38% 55% 45% / 45% 55% 45% 55%;
+  --primitive-shape-blob-2: 40% 60% 65% 35% / 55% 40% 60% 45%;
+  --primitive-shape-blob-3: 55% 45% 40% 60% / 40% 55% 45% 60%;
+}
+
+/* === SEMANTIC === */
+:root {
+  --background: #F6EEDD;
+  --foreground: #3A2C20;
+  --card: #FDF9F1;
+  --card-foreground: #3A2C20;
+  --popover: #FDF9F1;
+  --popover-foreground: #3A2C20;
+  --primary: #C4694B;
+  --primary-foreground: #FDF9F1;
+  --secondary: #8A9A78;
+  --secondary-foreground: #FDF9F1;
+  --muted: #EDE0C6;
+  --muted-foreground: #8A7256;
+  --accent: #D9A441;
+  --accent-foreground: #241A12;
+  --destructive: #833C22;
+  --border: #E1CFAE;
+  --input: #E1CFAE;
+  --ring: #C4694B;
+  --radius: 1.5rem;
+  --ink: #241A12;
+  --sage-line: #6C7C5C;
+  --terracotta-deep: #833C22;
+  --type-hand: var(--font-caveat), 'Caveat', cursive;
+  --type-body: var(--font-lora), 'Lora', Georgia, serif;
+  --type-ui: var(--font-karla), 'Karla', system-ui, sans-serif;
+  --ease-organic: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-wobble: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration-micro: 200ms;
+  --duration-base: 350ms;
+  --duration-reveal: 900ms;
+  --blob-1: 62% 38% 55% 45% / 45% 55% 45% 55%;
+  --blob-2: 40% 60% 65% 35% / 55% 40% 60% 45%;
+  --blob-3: 55% 45% 40% 60% / 40% 55% 45% 60%;
+}
+
+/* === COMPONENTS === */
+:root {
+  --hero-title-size: clamp(3.2rem, 9vw, 7.5rem);
+  --hero-title-leading: 0.95;
+  --hero-note-rotate: -2.5deg;
+  --button-primary-bg: #C4694B;
+  --button-primary-fg: #FDF9F1;
+  --button-primary-hover-bg: #A8502F;
+  --button-ghost-border: #8A9A78;
+  --button-ghost-hover-bg: #C4D0B4;
+  --card-border: #E1CFAE;
+  --card-shadow: 0 18px 40px -20px rgba(58, 44, 32, 0.35);
+}
